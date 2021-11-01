@@ -11,8 +11,8 @@ def relu_activation(x):
     return x
 
 x_all=np.linspace(lower,upper,num=num)
-vals=np.empty((0),int)
-print(type(vals))
+vals=np.empty((0),int) #numpy.ndarray
+
 for x in x_all:
     y=relu_activation(x)
     vals=np.append(vals,y)
