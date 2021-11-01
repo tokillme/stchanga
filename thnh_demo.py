@@ -15,3 +15,4 @@ for x in x_all:
     
 plt.title('tanh')
 plt.plot(x_all,vals,'g.')
+plt.show()
